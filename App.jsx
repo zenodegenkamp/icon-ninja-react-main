@@ -137,7 +137,7 @@ export default function App() {
                
               >
                  <Spline scene="https://prod.spline.design/lb5LkII4DL1Q4HbA/scene.splinecode" />
-                {/* <img className="home-scroll-background" style={{ width: "100%"}} src={stadBackground} alt="foreground" /> */}
+                
               </Plx>
               <Plx
                 parallaxData={[
@@ -161,7 +161,7 @@ export default function App() {
                   height: "100%"
                 }}
               >
-                <Spline scene="https://prod.spline.design/CkNCZZYsXmHU1i1W/scene.splinecode" />
+                <Spline className="spline" scene="https://prod.spline.design/CkNCZZYsXmHU1i1W/scene.splinecode" />
               </Plx>
               <Plx
                 parallaxData={[

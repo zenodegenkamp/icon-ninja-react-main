@@ -287,12 +287,47 @@ main {
     }
 
     .scoreboard {
-        width: 80%;
+        width: 50%;
     }
 
     .highscore {
         display: none;
     }
 
+    .spline {
+        display: none;
+    }
+
+
       }
-      
+
+      @media (max-width: 500px) { 
+
+        .scoreboard {
+            width: 40%;
+        }
+
+        .body {
+            font-size: 0.3rem
+        }
+
+        .dice-section {
+            margin: 0 2rem;
+        }
+
+        .dice-container {
+            grid-template: auto auto auto auto auto / repeat(4, 1fr);
+        }
+
+        /* .diamond,
+        .bolt,
+        .fish,
+        .heart,
+        .bomb,
+        .start {
+            height: 20px;
+            width: 20px;
+        } */
+
+
+      }
